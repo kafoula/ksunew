@@ -58,7 +58,7 @@ jobs:
                        name="beesi kernel proplus 2"        \
                        toolchain=$TOOLCHAIN      \
                        -magisk                   \
-                        +kernelsu              \
+                        
                        +nohardening              \
                        +ttl                      \
                        +wireguard                \
