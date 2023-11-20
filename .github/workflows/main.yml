@@ -57,7 +57,7 @@ jobs:
                        model=${{ matrix.model }} \
                        name="beesi kernel proplus 2"        \
                        toolchain=$TOOLCHAIN      \
-                       +-magisk                   \
+                       -magisk                   \
                         +kernelsu              \
                        +nohardening              \
                        +ttl                      \
